@@ -48,6 +48,13 @@
     HTTP는 사용자가 서버에 요청을 하는 Request와 사용자의 요청에 대한 서버의 응답인 Response로 이루어짐.
     
     
+#####HTTP Status Code
+- 2XX -> OK
+- 4XX -> Client
+- 5XX -> Server
+
+    
+    
 #####브라우저에 URL입력 후 요청하여 서버에서 응답하는 과정
 
 <img width="750" alt="Screen Shot 2020-09-18 at 10 32 04 AM" src="https://user-images.githubusercontent.com/47844536/93545085-8a5f4280-f99a-11ea-8fde-d7e40994580c.png">
@@ -73,6 +80,14 @@
 - [ ]  api 문서 보완
 
 - [ ]  poi library 이용해서 api결과 excel로 다운
+
+--------
+#### API 작성
+
+- mybatis연결 세팅 후 실행 -> Unsatisfied dependency expressed through field 'userDAO'에러
+
+
+ 
 
 
 

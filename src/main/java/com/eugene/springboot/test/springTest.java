@@ -19,15 +19,6 @@ public class springTest {
         return "Hello";
     }
 
-    @RequestMapping("/sendVO")
-    public requestInfoVO requestInfoVO(){
-        requestInfoVO info = new requestInfoVO();
-        info.setRequestID(1);
-        info.setRequestCode("L");
-        info.setUserID("AAA");
-        info.setCreateDate("2008180520");
 
-        return info;
-    }
 
 }

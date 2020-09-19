@@ -1,10 +1,12 @@
 package com.eugene.springboot.VO;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.Date;
 
+@AllArgsConstructor
 @Getter
 @Setter
 public class requestInfoVO {
